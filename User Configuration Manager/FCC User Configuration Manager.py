@@ -1,11 +1,11 @@
-test_settings = {'theme' : 'dark',
+test_settings = {'theme' : 'dark',                                     # A dictionary of settings for testing
     'language' : 'English',
     'notifications' : 'On'}
 
-def add_setting(sett_dict, item):
-    setting, kval = item
-    setting = setting.lower()
-    kval = kval.lower()
+def add_setting(sett_dict, item):                                      #This function takes the provided settings dictionary and the new setting along 
+    setting, kval = item                                               #with its value as a parameter, turns the key and value input 
+    setting = setting.lower()                                          #into lowercase and searches the dictionary for it.If it already exists, prints the error message.
+    kval = kval.lower()                                                #If it doesn't exist, it adds the setting and its value and prints the success message
 
     if setting in sett_dict:
         return f"Setting '{setting}' already exists! Cannot add a new setting with this name."
