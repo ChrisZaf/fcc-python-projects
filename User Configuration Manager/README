@@ -1,2 +1,3 @@
 This project is a simulation of managing user settings in a basic terminal, for example inside an application. You can add new settings, update existing ones,
-delete settings and view them all at once. I'm using functions, dictionaries and some basic operators and methods.
+delete settings and view them all at once. I'm using functions, dictionaries and some basic operators and methods. There is no user input, i've debugged by calling
+the functions seperately and testing either outcomes(not included).
